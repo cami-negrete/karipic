@@ -5,16 +5,16 @@
 
   <div class="field">
     <%= f.label :name %><br />
-    <%= f.text_field :name, autofocus: true, autocomplete: "Nombre" %>
+    <%= f.text_field :name, autofocus: true, autocomplete: "Nombre", required: true %>
   </div>
   <div class="field">
     <%= f.label :avatar %><br />
-    <%= f.url_field :avatar, autofocus: true, autocomplete: "Avatar" %>
+    <%= f.url_field :avatar, autofocus: true, autocomplete: "Avatar", required: true %>
   </div>
 
   <div class="field">
     <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+    <%= f.email_field :email, autofocus: true, autocomplete: "email", required: true %>
   </div>
 
   <div class="field">
